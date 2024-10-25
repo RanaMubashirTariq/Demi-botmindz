@@ -1,0 +1,64 @@
+.seventh-section-d{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    /* align-items: center; */
+    width: 100%;
+    /* height: 935px; */
+    padding: 160px 122px 160px 123px;
+}
+.seventh-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.seventh-section-para{
+    width: 100%;
+}
+.seventh-section-para{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.11px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);  
+} 
+.seventh-section-heading{
+      width: 100%;
+}
+.seventh-section-heading h2{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.seventh-section-heading h2 span{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: rgba(0, 243, 182, 1);    
+}
+
+
+/* cards part */
+
+.seventh-section-cards-d{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     padding-top: 75px;
+}
+.inner-pic{
+    width: 398px;
+    height: 683px;
+    gap: 0px;
+    opacity: 0px;
+    
+}

@@ -1,0 +1,64 @@
+.No-wrap-card-d{
+    width: 100%;
+    height: 409px;
+    padding: 160px 122.5px;
+    /* background-image: url(/public/Images/backgroundPicNoWrap.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: rgba(2, 134, 137, 0.8);
+    backdrop-filter: blur(30px);
+}
+.No-wrap-card-inner-d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.single-card-nowrap-d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 276px;
+    height:138px;
+    padding: 0px 76px 21px 76px;
+    gap: 10px;
+    border-radius: 50px 0px 50px 0px;
+    border: 1px solid rgba(255, 255, 255, 1)  
+}
+.single-card-nowrap-inner-d{
+    width: 124px;
+    height: 96px;  
+}
+.single-card-nowrap-heading{
+    width: 124px;
+    height: 83px;  
+}
+.single-card-nowrap-heading h2{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 82.5px;
+    text-align: justified;
+    color: rgba(7, 226, 171, 1);
+}
+.single-card-nowrap-heading h2 span {
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 82.5px;
+    text-align: justified;
+    color: rgba(7, 226, 171, 1);
+}
+.single-card-nowrap-para{
+    width: 75px;
+    height: 23px;
+}
+.single-card-nowrap-para p{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justified;
+     color: rgba(255, 255, 255, 1);  
+}

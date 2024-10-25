@@ -1,0 +1,115 @@
+.four-wrap-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 123.5px 160px 122.5px;
+}
+.two-card-1st-part{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 315px; */
+}
+.two-card-2st-part{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 315px; */
+    padding-top: 60px;
+}
+.single-card-two{
+    display: flex;
+    width: 603px;
+    height: 315px;
+    padding: 36px 27px;
+    gap: 10px;
+    border-radius: 45px 0px 45px 0px;
+    color: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(219, 214, 214, 0.2);
+    backdrop-filter: blur(70px)
+
+}
+.single-card-two-inner-d{
+    display: flex;
+    align-items: flex-start;
+    width: 535px;
+    height: 243px;
+    gap: 30px;   
+}
+.single-card-two-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    width: 241px;
+    height:243px;
+    gap: 14px;
+}
+.single-card-two-content-innerd1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height:147px;
+    gap: 18px;   
+}
+.single-card-two-content-inner-d2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 106px;
+    gap: 9px; 
+}
+.single-card-two-content-part2{
+    width: 198px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.single-card-two-content-part2 h2{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.11px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1); 
+}
+.single-card-two-content-part3{
+     width: 100%;
+     height: 69px;
+}
+.single-card-two-content-part3 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);  
+}
+
+/* bar system */
+.Progress-bar-heading-part{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height:23px;
+    gap: 17px;
+    padding-top: 18px;
+}
+.Progress-bar-heading{
+    width : 95px;
+    height : 23px; 
+}
+.Progress-bar-heading p{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+} 
+.Progress-bar-pic img{
+    width: 18px;
+    height: 18px;
+}

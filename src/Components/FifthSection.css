@@ -1,0 +1,118 @@
+.fifth-section-d{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 100%;
+    /* height: 640px; */
+    padding: 160px 122px 160px 124px;
+    /* background: peru; */
+}
+.fifth-section-right-part{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 100%;
+     /* height: 531px; */
+     gap: 15px;
+}
+.part-1{
+   width: 100px;
+   font-family: Poppins;
+   font-size: 22px;
+   font-weight: 500;
+   line-height: 28.11px;
+   text-align: justified;
+   color: rgba(255, 255, 255, 1); 
+}
+.part-2{
+    width: 635px;
+    /* height: 134px; */
+}
+.part-2 h2{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+}
+.part-2 h2 span{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: justified;
+    color: rgba(0, 243, 182, 1);     
+}
+.part-3{
+    width: 100%;
+    height: 56px;  
+}
+.part-3 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1); 
+}
+.part-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 556px;
+    height: 238px;
+    gap: 50px;
+}
+.part-4-inner-d{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.part-4-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.part-4-heading h2{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.11px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+
+}
+.part-4-para p{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.part-5-btn{
+    width: 177px;
+    height: 59px;
+    padding: 18px 44px ;
+    gap: 10px;
+    border-radius: 38.41px 0px 38.41px 0px;
+    border: 0.77px solid rgba(255, 255, 255, 1);
+    margin-top: 50px;
+}
+.part-5-btn button{
+    border: none;
+    outline: none;
+    background: none;
+    width: 89px;
+    height: 23px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: justified;
+    color: rgba(0, 243, 182, 1);
+    
+}

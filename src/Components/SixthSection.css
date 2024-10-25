@@ -1,0 +1,66 @@
+.sixth-section-main-d{
+    max-width: 100%;
+    background: rgb(7, 7, 13);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(34px);
+    padding: 160px 122px 160px 124px;
+}
+.sixth-section-d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 409px;
+    /* padding: 0px 11px 0px 112px; */
+}
+.sixth-section-right-part{
+    padding-right: 50px;
+}
+.sixth-section-left-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     width: 100%;
+}
+.sixth-section-content{
+    width: 100%;
+}
+.sixth-section-content h2{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left; 
+    color: rgba(255, 255, 255, 1);  
+}
+.sixth-section-content h2 span{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+    color: rgba(0, 243, 182, 1);    
+}
+.sixth-section-btn{
+    width: 177px;
+    height: 59px;
+    padding: 18px 44px ;
+    gap: 10px;
+    border-radius: 38.41px 0px 38.41px 0px;
+    border: 0.77px solid rgba(255, 255, 255, 1);
+    margin-top: 50px;
+}
+.sixth-section-btn button{
+    border: none;
+    outline: none;
+    background: none;
+    width: 89px;
+    height: 23px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: justified;
+    color: rgba(0, 243, 182, 1);
+    
+}

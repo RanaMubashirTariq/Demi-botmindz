@@ -1,0 +1,122 @@
+.eleven-section-d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 160px 122px 160px 123px;
+}
+.eleven-section-right-part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+.eleven-section-part1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 15px;
+}
+.eleven-section-inner-part1{
+    width: 100%;
+}
+.eleven-section-inner-part1 p{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.11px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1); 
+}
+.eleven-section-inner-part2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.eleven-section-inner-part2 h2{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 66px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1); 
+}
+.eleven-section-inner-part2 h2 span{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 66px;
+    text-align: left;
+    color: rgba(0, 243, 182, 1);
+}
+.eleven-section-part2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+.eleven-section-part2-1{
+     width: 100%;
+     border-radius: 20.5px;
+     padding: 21px 0px 22px 37px;
+     border: 1px solid rgba(0, 243, 182, 1)
+}
+.eleven-section-part2-1 p{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.11px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+}
+.eleven-section-part2-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.eleven-section-part2-inner-part1{
+    width: 100%;
+    padding-right: 121px;
+}
+.eleven-section-part2-inner-part1 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+}
+.eleven-section-part2-inner-part2{
+     width: 100%;
+    padding: 15px 0px 15px 0px;
+    border-radius: 10px;
+}
+.eleven-section-part2-inner-part-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding-top: 45px;
+}
+.eleven-section-part2-inner-part-list-d{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.eleven-section-part2-inner-part-para{
+     width: 100%;
+     padding: 0px 37px 17px 37px;
+}
+.eleven-section-part2-inner-part-para p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: justified;
+     color: rgba(255, 255, 255, 1);  
+}
+.eleven-section-part2-inner-part-pic{
+    padding-right: 55px;
+}

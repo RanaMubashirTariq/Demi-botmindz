@@ -1,0 +1,48 @@
+.twelve-section-d{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 160px 122.5px 160px 122px;
+
+}
+.twelve-section-left-part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+.twelve-left-top-part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.twelve-left-part1{
+    width: 100%;
+}
+.twelve-left-part1 p{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.11px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+}
+.twelve-left-part2{
+    width: 100%;
+}
+.twelve-left-part2 h2{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 61.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.twelve-left-part2 h2 span{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 61.6px;
+    text-align: left;
+    color: rgba(0, 243, 182, 1);
+}

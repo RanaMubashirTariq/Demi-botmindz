@@ -1,6 +1,6 @@
 .No-wrap-card-d{
     width: 100%;
-    height: 409px;
+    /* height: 409px; */
     padding: 160px 122.5px;
     /* background-image: url(/public/Images/backgroundPicNoWrap.svg);
     background-position: center;
@@ -61,4 +61,239 @@
     line-height: 23px;
     text-align: justified;
      color: rgba(255, 255, 255, 1);  
+}
+
+
+
+@media screen and (min-width:1150px) and (max-width:1440px) {
+    .single-card-nowrap-d{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 220px;
+        height:100px;
+        padding: 0px 76px 21px 76px;
+        gap: 10px;
+        border-radius: 50px 0px 50px 0px;
+        border: 1px solid rgba(255, 255, 255, 1)  
+    }
+    .single-card-nowrap-inner-d{
+        width:100px;
+        height: 96px;  
+    }
+    .single-card-nowrap-heading{
+        width: 100px;
+        height: 83px;  
+    }
+    .single-card-nowrap-heading h2{
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 82.5px;
+        text-align: justified;
+        color: rgba(7, 226, 171, 1);
+    }
+    .single-card-nowrap-heading h2 span {
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 82.5px;
+        text-align: justified;
+        color: rgba(7, 226, 171, 1);
+    }
+    .single-card-nowrap-para{
+        width: 50px;
+        height: 23px;
+    }
+    .single-card-nowrap-para p{
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: justified;
+         color: rgba(255, 255, 255, 1);  
+    }
+}
+
+
+@media screen and (min-width:850px) and (max-width:1150px) {
+    .single-card-nowrap-d{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 180px;
+        height:100px;
+        padding: 0px 50px 21px 50px;
+        gap: 10px;
+        border-radius: 50px 0px 50px 0px;
+        border: 1px solid rgba(255, 255, 255, 1)  
+    }
+    .single-card-nowrap-inner-d{
+        width:80px;
+        height: 96px;  
+    }
+    .single-card-nowrap-heading{
+        width: 80px;
+        height: 83px;  
+    }
+    .single-card-nowrap-heading h2{
+        font-family: Poppins;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 82.5px;
+        text-align: justified;
+        color: rgba(7, 226, 171, 1);
+    }
+    .single-card-nowrap-heading h2 span {
+        font-family: Poppins;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 82.5px;
+        text-align: justified;
+        color: rgba(7, 226, 171, 1);
+    }
+    .single-card-nowrap-para{
+        width: 50px;
+        height: 23px;
+    }
+    .single-card-nowrap-para p{
+        font-family: Plus Jakarta Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: justified;
+         color: rgba(255, 255, 255, 1);  
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:850px) {
+    .No-wrap-card-d{
+        width: 100%;
+        /* height: 409px; */
+        padding: 80px 50.5px;
+        /* background-image: url(/public/Images/backgroundPicNoWrap.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background: rgba(2, 134, 137, 0.8);
+        backdrop-filter: blur(30px);
+    }
+    .single-card-nowrap-d{
+        display: flex;
+        /* flex-wrap: wrap; */
+
+        justify-content: space-between;
+        align-items: center;
+        width: 150px;
+        height:100px;
+        padding: 0px 30px 21px 30px;
+        gap: 10px;
+        border-radius: 50px 0px 50px 0px;
+        border: 1px solid rgba(255, 255, 255, 1)  
+    }
+    .single-card-nowrap-inner-d{
+        width:80px;
+        height: 96px;  
+    }
+    .single-card-nowrap-heading{
+        width: 80px;
+        height: 83px;  
+    }
+    .single-card-nowrap-heading h2{
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 82.5px;
+        text-align: justified;
+        color: rgba(7, 226, 171, 1);
+    }
+    .single-card-nowrap-heading h2 span {
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 82.5px;
+        text-align: justified;
+        color: rgba(7, 226, 171, 1);
+    }
+    .single-card-nowrap-para{
+        width: 50px;
+        height: 23px;
+    }
+    .single-card-nowrap-para p{
+        font-family: Plus Jakarta Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: justified;
+         color: rgba(255, 255, 255, 1);  
+    }
+}
+@media screen and (min-width:315px) and (max-width:600px) {
+    .No-wrap-card-d{
+        width: 100%;
+        height: 600px;
+        /* height: 409px; */
+        padding: 20px 15px;
+        /* background-image: url(/public/Images/backgroundPicNoWrap.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background: rgba(2, 134, 137, 0.8);
+        backdrop-filter: blur(30px);
+    }
+    .single-card-nowrap-d{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+        height:120px;
+        padding: 0px 70px 21px 60px;
+        gap: 10px;
+        border-radius: 50px 0px 50px 0px;
+        border: 1px solid rgba(255, 255, 255, 1)  
+    }
+    .single-card-nowrap-inner-d{
+        width:100px;
+        height: 96px;  
+    }
+    .single-card-nowrap-heading{
+        width: 100px;
+        height: 83px;  
+    }
+    .single-card-nowrap-heading h2{
+        font-family: Poppins;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 82.5px;
+        text-align: justified;
+        color: rgba(7, 226, 171, 1);
+    }
+    .single-card-nowrap-heading h2 span {
+        font-family: Poppins;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 82.5px;
+        text-align: justified;
+        color: rgba(7, 226, 171, 1);
+    }
+    .single-card-nowrap-para{
+        width: 50px;
+        height: 23px;
+    }
+    .single-card-nowrap-para p{
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: justified;
+         color: rgba(255, 255, 255, 1);  
+    }
+    .No-wrap-card-inner-d{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
 }

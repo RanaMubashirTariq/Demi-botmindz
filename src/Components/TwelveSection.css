@@ -9,12 +9,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 15px;
+    gap: 25px;
 }
 .twelve-left-top-part{
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 25px;
 }
 .twelve-left-part1{
     width: 100%;
@@ -45,4 +46,66 @@
     line-height: 61.6px;
     text-align: left;
     color: rgba(0, 243, 182, 1);
+}
+.twelve-left-bottom-part{
+    display: flex;
+    width: 100%;
+    padding: 39px 24px 39px 24px;
+    gap: 10px;
+    border-radius: 10px ;
+    background: rgba(4, 3, 23, 1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* backdrop-filter: blur(34px); */
+}
+.twelve-left-bottom-inner-part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+.twelve-left-input-part{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.twelve-left-input input{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: black;
+    padding: 15px 10px 15px 15px;
+    font-size: 18px;
+    color: white;
+}
+.twelve-left-input-msg textarea{
+    width: 100%;
+    height: 162px;
+    padding: 15px 30px 15px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: black; 
+}
+.twelve-btn{
+    width: 180px;
+    height: 65px;
+    padding: 21px 41px ;
+    gap: 10px;
+    border-radius: 38.41px 0px 38.41px 0px;
+    border: 0.77px solid rgba(255, 255, 255, 1)
+    
+}
+.twelve-btn button{
+    border: none;
+    outline: none;
+    background: none;
+    width: 98px;
+    height:23px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: justified;
+    color: rgba(0, 243, 182, 1);
+    
 }

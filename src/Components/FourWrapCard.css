@@ -1,22 +1,24 @@
 .four-wrap-card{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* display: grid;
+    column-gap: 60px;
+    row-gap: 60px; */
     width: 100%;
-    padding: 0px 123.5px 160px 122.5px;
+    padding: 160px 123.5px 160px 122.5px;
 }
 .two-card-1st-part{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* height: 315px; */
+    height: 315px;
 }
 .two-card-2st-part{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* height: 315px; */
-    padding-top: 60px;
+    height: 315px;
 }
 .single-card-two{
     display: flex;
@@ -33,19 +35,20 @@
 .single-card-two-inner-d{
     display: flex;
     align-items: flex-start;
-    width: 535px;
-    height: 243px;
-    gap: 30px;   
+    /* justify-content: space-between; */
+    width: 100%;
+    /* height: 243px; */ 
+    gap: 20px;
 }
 .single-card-two-content{
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
-    width: 241px;
-    height:243px;
+    width: 100%;
+    /* height:243px; */
     gap: 14px;
 }
-.single-card-two-content-innerd1{
+.single-card-two-content-innerd-1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -61,7 +64,7 @@
     gap: 9px; 
 }
 .single-card-two-content-part2{
-    width: 198px;
+    width: 100%;
     height: 28px;
     gap: 0px;
     opacity: 0px;
@@ -92,7 +95,7 @@
 .Progress-bar-heading-part{
     display: flex;
     align-items: center;
-    width: 130px;
+    width: 150px;
     height:23px;
     gap: 17px;
     padding-top: 18px;
@@ -112,4 +115,455 @@
 .Progress-bar-pic img{
     width: 18px;
     height: 18px;
+}
+
+
+@media screen and (min-width:1281px) and (max-width:1480px) {
+    .four-wrap-card{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        display: grid;
+        column-gap: 60px;
+        row-gap: 60px;
+        width: 100%;
+        padding: 160px 115.5px 160px 113.5px;
+    }
+    .single-card-two{
+        display: flex;
+        width: 503px;
+        height: 315px;
+        padding: 36px 27px;
+        gap: 10px;
+        border-radius: 45px 0px 45px 0px;
+        color: rgba(255, 255, 255, 0.05);
+        border: 2px solid rgba(219, 214, 214, 0.2);
+        backdrop-filter: blur(70px)
+    
+    }
+    .single-card-two-content-part1 img{
+               width: 50px;
+    }
+    .single-card-two-content-part2{
+        width: 200px;
+        height: 28px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    .single-card-two-content-part2 h2{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28.11px;
+    }
+    .single-card-two-content-part3{
+         width: 100%;
+         height: 69px;
+    }
+    .single-card-two-content-part3 p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px; 
+    }
+    .card-pic-d img{
+        width: 220px;
+    }
+}
+
+@media screen and (min-width:1160px) and (max-width:1281px) {
+    .four-wrap-card{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        display: grid;
+        column-gap: 60px;
+        row-gap: 60px;
+        width: 100%;
+        padding: 120px 40px.5px 120px 40px.5px;
+    }
+    .single-card-two{
+        display: flex;
+        width: 450px;
+        height: 280px;
+        padding: 36px 27px;
+        gap: 10px;
+        border-radius: 45px 0px 45px 0px;
+        color: rgba(255, 255, 255, 0.05);
+        border: 2px solid rgba(219, 214, 214, 0.2);
+        backdrop-filter: blur(70px)
+    
+    }
+    .single-card-two-content-part1 img{
+               width: 50px;
+    }
+    .single-card-two-content-part2{
+        width: 200px;
+        height: 28px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    .single-card-two-content-part2 h2{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28.11px;
+    }
+    .single-card-two-content-part3{
+         width: 100%;
+         height: 69px;
+    }
+    .single-card-two-content-part3 p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px; 
+    }
+    .card-pic-d img{
+        width: 210px;
+    }
+    .Progress-bar-heading p{
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: justified;
+        color: rgba(255, 255, 255, 1);
+    } 
+}
+
+@media screen and (min-width:950px) and (max-width:1160px) {
+    .four-wrap-card{
+        width: 100%;
+        padding: 0 60px.5px 100px 60px.5px;
+        gap: 60px;
+    }
+    .single-card-two{
+        width: 350px;
+        height: 220px;
+    
+    }
+    .single-card-two-inner-d{
+        width: 300px;
+    }
+    .single-card-two-content-part1 img{
+               width: 40px;
+    }
+    .single-card-two-content-part2{
+        width: 150px;
+        height: 28px;
+    }
+    .single-card-two-content-part2 h2{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20.11px;
+    }
+    .single-card-two-content-part3{
+         width: 100%;
+         height: 69px;
+    }
+    .single-card-two-content-part3 p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px; 
+    }
+    .card-pic-d img{
+        width: 170px;
+        /* height: 180px; */
+    }
+    .Progress-bar-heading{
+        width : 70px;
+        height : 23px; 
+    }
+    .Progress-bar-heading p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 23px;
+    } 
+    .Progress-bar-pic img{
+        width: 12px;
+        height: 12px;
+    }
+    .single-card-two-content-inner-d2{
+
+        width: 100%;
+        height: 80px;
+        gap: 9px; 
+    }
+    .single-card-two-content{
+
+        gap: 5px;
+    }
+    .Progress-bar-heading-part{
+        width: 100px;
+    }
+}
+
+
+@media screen and (min-width:865px) and (max-width:950px) {
+    .four-wrap-card{
+        width: 100%;
+        padding: 0 60px.5px 100px 60px.5px;
+        display: grid;
+        gap: 60px;
+    }
+    .single-card-two{
+        width: 350px;
+        height: 220px;
+    
+    }
+    .single-card-two-inner-d{
+        width: 300px;
+    }
+    .single-card-two-content-part1 img{
+               width: 40px;
+    }
+    .single-card-two-content-part2{
+        width: 150px;
+        height: 28px;
+    }
+    .single-card-two-content-part2 h2{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20.11px;
+    }
+    .single-card-two-content-part3{
+         width: 100%;
+         height: 69px;
+    }
+    .single-card-two-content-part3 p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px; 
+    }
+    .card-pic-d img{
+        width: 170px;
+        /* height: 180px; */
+    }
+    .Progress-bar-heading{
+        width : 70px;
+        height : 23px; 
+    }
+    .Progress-bar-heading p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 23px;
+    } 
+    .Progress-bar-pic img{
+        width: 12px;
+        height: 12px;
+    }
+    .single-card-two-content-inner-d2{
+
+        width: 100%;
+        height: 80px;
+        gap: 9px; 
+    }
+    .single-card-two-content{
+
+        gap: 5px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:865px) {
+    .four-wrap-card{
+        width: 100%;
+        height: 1600px;
+        padding: 40px 30.5px 40px 50.5px;
+        /* gap: 60px; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* row-gap: 60px; */
+    }
+    .single-card-two{
+        width: 550px;
+        height: 315px;
+        margin-top: 60px;
+    }
+    .single-card-two-inner-d{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+    }
+    .single-card-two-content-part2{
+        width: 100%;
+        height: 28px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    .single-card-two-content-part2 h2{
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 28.11px;
+        text-align: justified;
+        color: rgba(255, 255, 255, 1); 
+    }
+    .single-card-two-content-part3{
+         width: 100%;
+         height: 69px;
+    }
+    .single-card-two-content-part3 p{
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);  
+    }
+    .Progress-bar-heading p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+    } 
+    .Progress-bar-pic img{
+        width: 18px;
+        height: 18px;
+    }
+    .single-card-two-content-inner-d2{
+
+        width: 100%;
+        height: 106px;
+        gap: 9px; 
+    }
+    .single-card-two-content{
+
+        gap: 14px;
+    }
+    .two-card-1st-part{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        width: 100%;
+        height: 315px;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width: 860px) {
+    .four-wrap-card {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px; /* Adjust the gap between cards */
+    }
+    
+    .two-card-1st-part,
+    .two-card-2st-part {
+        flex-direction: column; /* Stack cards vertically */
+        width: 100%;
+        height: auto; /* Let height adjust based on content */
+    }
+
+    .single-card-two {
+        width: 100%; /* Make each card full width */
+        max-width: 100%; /* Prevent exceeding screen width */
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .single-card-two-inner-d {
+        flex-direction: row; /* Keep content layout intact */
+        width: 100%;
+        gap: 20px;
+    }
+
+    .single-card-two-content-part2 h2 {
+        font-size: 18px; /* Adjust text size if necessary */
+    }
+
+    .single-card-two-content-part3 p {
+        font-size: 14px;
+    }
+
+    .Progress-bar-heading p {
+        font-size: 16px;
+    }
+
+    .Progress-bar-pic img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (min-width:315px) and (max-width: 500px) {
+    .four-wrap-card {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px; /* Adjust the gap between cards */
+    }
+    
+    .two-card-1st-part,
+    .two-card-2st-part {
+        flex-direction: column; /* Stack cards vertically */
+        width: 100%;
+        height: auto; /* Let height adjust based on content */
+    }
+
+    .single-card-two{
+        width: 290px;
+        height: 170px;
+        margin-top: 60px;
+        padding: 15px 20px;
+    }
+    .single-card-two-inner-d {
+        flex-direction: row; /* Keep content layout intact */
+        width: 100%;
+        gap: 20px;
+    }
+
+    .single-card-two-content-part2{
+        width: 100%;
+        height: 28px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    .single-card-two-content-part2 h2{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18.11px;
+        text-align: justified;
+        color: rgba(255, 255, 255, 1); 
+    }
+    .single-card-two-content-part3{
+         width: 100%;
+         height: 69px;
+    }
+    .single-card-two-content-part3 p{
+        font-family: Plus Jakarta Sans;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 13px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);  
+    }
+
+.Progress-bar-heading p{
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 13px;
+} 
+.Progress-bar-pic img{
+    width: 8px;
+    height: 8px;
+}
+.single-card-two-content-inner-d2{
+
+    width: 100%;
+    height: 70px;
+    gap: 9px; 
+}
+.single-card-two-content-part1 img{
+    width: 30px;
+}
+
+    .card-pic-d img{
+          width: 100px;
+    }
 }

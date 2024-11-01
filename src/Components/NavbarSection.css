@@ -1,5 +1,5 @@
 .navbar-section-d-logo{
-    width: 60%;
+    width: 50%;
 }
 .navbar-section-d{
     display: flex;
@@ -8,14 +8,23 @@
     width: 100%;
     padding: 42px 123px;
     box-sizing: border-box;
+    position: relative;
+}
+.left-part-d-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .navbar-section-d-menu{
     width: 100%;
+    max-width: 439px;
+    padding-top: 22px;
     /* height: 23px; */
 }
 .navbar-section-d-menu ul {
       display: flex;
-      gap: 40px;
+      /* gap: 40px; */
+      justify-content: space-between;
 }
 .navbar-section-d-menu ul li a{
     text-decoration: none;
@@ -27,8 +36,9 @@
     color: rgba(255, 255, 255, 1);
 
 }
-.navbar-btn{
-    width: 180px;
+.navbar-btn-d{
+    width: 100%;
+    max-width: 180px;
     height: 65px;
     padding: 21px 41px ;
     gap: 10px;
@@ -36,7 +46,7 @@
     border: 0.77px solid rgba(255, 255, 255, 1)
     
 }
-.navbar-btn button{
+.navbar-btn-d button{
     border: none;
     outline: none;
     background: none;
@@ -50,3 +60,234 @@
     color: rgba(0, 243, 182, 1);
     
 }
+.toggle-button{
+    display: none;
+
+}
+
+@media screen and (min-width:1000px) and (max-width:1280px) {
+    .navbar-section-d {
+        width: 100%;
+        padding: 30px 60px;
+    }
+    .navbar-section-d-logo {
+        width: 40%;
+      }
+      .navbar-btn-d{
+        width: 100%;
+        max-width: 130px;
+        height: 65px;
+        padding: 21px 21px ;
+        gap: 10px;
+        border-radius: 38.41px 0px 38.41px 0px;
+        border: 0.77px solid rgba(255, 255, 255, 1)
+        
+    }
+    .navbar-btn-d button{
+        border: none;
+        outline: none;
+        background: none;
+        width: 98px;
+        height:23px;
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22.68px;
+        text-align: justified;
+        color: rgba(0, 243, 182, 1);
+        
+    }
+    .navbar-section-d-menu ul li a{
+        text-decoration: none;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.68px;
+        text-align: justified;
+        color: rgba(255, 255, 255, 1);
+    
+    }
+    .navbar-btn-d{
+      width: 100%;
+      max-width: 130px;
+      height: 65px;
+      padding: 21px 15px ;
+      gap: 10px;
+      border-radius: 38.41px 0px 38.41px 0px;
+      border: 0.77px solid rgba(255, 255, 255, 1)
+      
+  }
+  .navbar-btn-d button{
+    border: none;
+    outline: none;
+    background: none;
+    width: 98px;
+    height:23px;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: justified;
+    color: rgba(0, 243, 182, 1);
+    
+}
+
+}
+  
+@media screen and (min-width:801px) and (max-width:1000px){
+    .navbar-section-d {
+        width: 100%;
+        padding: 15px 30px;
+    }
+    .navbar-section-d-logo {
+        width: 40%;
+      }
+      .navbar-btn-d{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100px;
+        height: 65px;
+        padding: 15px 21px ;
+        gap: 10px;
+        border-radius: 38.41px 0px 38.41px 0px;
+        border: 0.77px solid rgba(255, 255, 255, 1)
+        
+    }
+    .navbar-btn-d button{
+        border: none;
+        outline: none;
+        background: none;
+        width: 98px;
+        height:23px;
+        font-family: Plus Jakarta Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 22.68px;
+        text-align: justified;
+        color: rgba(0, 243, 182, 1);
+        
+    }
+    .navbar-section-d-menu ul li a{
+        text-decoration: none;
+        font-family: Plus Jakarta Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22.68px;
+        text-align: justified;
+        color: rgba(255, 255, 255, 1);
+    
+    }
+    .navbar-section-d-menu ul {
+        display: flex;
+        /* gap: 40px; */
+       justify-content: center;
+       gap: 30px;
+  }
+  .navbar-section-d-menu ul li a{
+      text-decoration: none;
+      font-family: Plus Jakarta Sans;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22.68px;
+      text-align: justified;
+      color: rgba(255, 255, 255, 1);
+  
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+    .navbar-section-d {
+        width: 100%;
+      padding: 15px 20px;
+    }
+    .navbar-section-d-logo {
+      width: 100%;
+    }
+    .toggle-button {
+      font-size: 30px;
+      display: block;
+      background: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      /* padding-left: 150px; */
+    }
+    .left-part-d-nav {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: rgba(0, 0, 0, 0.9);
+      width: 200px;
+      height: calc(100vh - 60px);
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+      transform: translateX(100%);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .left-part-d-nav.active {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    .navbar-section-d-menu ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .navbar-btn-d button {
+      width: 100%;
+      /* margin-top: 20px; */
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 399px) {
+    .navbar-section-d {
+        width: 100%;
+      padding: 15px 20px;
+    }
+    .navbar-section-d-logo {
+      width: 100%;
+    }
+    .toggle-button {
+      font-size: 30px;
+      display: block;
+      background: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      /* padding-left: 150px; */
+    }
+    .left-part-d-nav {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: rgba(0, 0, 0, 0.9);
+      width: 200px;
+      height: calc(100vh - 60px);
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+      transform: translateX(100%);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .left-part-d-nav.active {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    .navbar-section-d-menu ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .navbar-btn-d button {
+      width: 100%;
+      /* margin-top: 20px; */
+      font-size: 14px;
+    }
+  }
+
+  
+  

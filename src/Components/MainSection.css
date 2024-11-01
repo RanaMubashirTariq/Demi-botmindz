@@ -1,39 +1,32 @@
 .main-section-d{
     display: flex;
     justify-content:space-between;
-     width: 100%;
-     height: 613.14px;
+     max-width: 100%;
      box-sizing: border-box;
      padding: 88px 124px 160px 122px;
-     /* padding-bottom: 160px; */
 }
 .main-section-right-d{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    /* align-items: center; */
-    width: 100%;
-    max-width: 631px;
+     justify-content: space-between;
+    width: 565px;
     height: 332px;
     gap: 15px;
-    padding-top: 140.97px;
+    padding-top: 180.97px;
 }
 .main-section-content{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     width: 100%;
-    height: 247px;
     gap: 15px;
 }
 .main-section-content-part1{
     max-width: 100%;
     height: 176px;
-    /* box-sizing: border-box; */
 }
 .main-section-content-part1 h2{
     font-family: Poppins;
-    font-size: 56px;
+    font-size: 58px;
     font-weight: 700;
     line-height: 99px;
     text-align: justified;
@@ -41,15 +34,15 @@
 }
 .main-section-content-part1 h2 span{
      font-family: Poppins;
-    font-size: 66px;
+    font-size: 58px;
     font-weight: 700;
     line-height: 99px;
     text-align: justified;
     color: rgba(0, 243, 182, 1);
 }
 .main-section-content-part2{
-    width: 580px;
-    height: 56px;
+    width: 560px;
+    /* height: 56px; */
     padding-top: 15px;
 }
 .main-section-content-part2 p{
@@ -64,23 +57,25 @@
 .Progress-bar-d{
     display: flex;
     align-items: center;
-    width: 220px;
-    height: 70px;
+    width: 100%;
+    /* height: 70px; */
     gap: 20px;
-    padding-top: 15px;
+    padding-top: 45px;
 } 
 .Progress-bar-heading-part{
     display: flex;
     align-items: center;
-    width: 130px;
-    height:23px;
+    width: 100%;
+    /* height:23px; */
     gap: 17px;
-    opacity: 0px; 
     padding-bottom: 15px; 
 }
 .Progress-bar-heading{
-    width : 95px;
-    height : 23px; 
+    width : 100px;
+}
+.bar-d img{
+    width: 50px;
+    height: 70px;
 }
 .Progress-bar-heading p{
     font-family: Plus Jakarta Sans;
@@ -90,12 +85,273 @@
     text-align: justified;
     color: rgba(255, 255, 255, 1);
 } 
-.Progress-bar-pic img{
-    width: 18px;
-    height: 18px;
+/* .main-section-left-d{
+   width: 634px;
+} */
+
+
+@media screen and (min-width:1281px) and (max-width:1440px) {
+    .main-section-d{
+        display: flex;
+        justify-content:space-between;
+         width: 100%;
+         box-sizing: border-box;
+         padding: 88px 120px 160px 118px;
+    }
+    .main-section-left-d img{
+   width: 600px;
+}
+.main-section-content-part1{
+    width: 100%;
+    height: 160px;
+}
+.main-section-right-d{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    width: 580px;
+    height: 300px;
+    gap: 15px;
+    padding-top: 140.97px;
+}
+}
+
+@media screen and (min-width:1000px) and (max-width:1280px) {
+    .main-section-d{
+        display: flex;
+        justify-content:space-between;
+         width: 100%;
+         box-sizing: border-box;
+         padding: 88px 80px 80px 80px;
+    }
+    .main-section-left-d img{
+        width: 500px;
+}
+.main-section-right-d{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    width: 450px;
+    height: 232px;
+    gap: 15px;
+    padding-top: 100.97px;
+}
+.main-section-content-part1 h2{
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: justified;
+    color: white;    
+}
+.main-section-content-part1 h2 span{
+     font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: justified;
+    color: rgba(0, 243, 182, 1);
+}
+.main-section-content-part2{
+    width: 420px;
+    height: 36px;
+    padding-top: 15px;
+}
+.main-section-content-part2 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.bar-d img{
+    width: 30px;
+}
+.Progress-bar-heading-part{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100px;
+}
+.Progress-bar-heading p{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+} 
+.main-section-content-part1{
+    width: 100%;
+    height: 150px;
+}
+}
+
+  
+ @media screen and (min-width: 700px) and (max-width:999px) {
+    .main-section-d {
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items: center;
+             width: 100%;
+             box-sizing: border-box;
+             /* padding: 40px 50px; */
+             padding: 0px 122px 40px 124px;
+        
+    } 
+    .main-section-right-d{
+        display: flex;
+        flex-direction: column;
+         justify-content: space-between;
+        width: 100%;
+        height: 200px;
+        gap: 15px;
+        padding-top: 180.97px;
+    }
+    .main-section-content-part2{
+        width:100%;
+        /* height: 56px; */
+        padding-top: 15px;
+    }
+    .main-section-content-part1{
+        width: 100%;
+        height: 30px;
+    }
+  
+
+    .main-section-content-part1 h2{
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: justified;
+        color: white;    
+    }
+    .main-section-content-part1 h2 span{
+         font-family: Poppins;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: justified;
+        color: rgba(0, 243, 182, 1);
+    }
+    .main-section-content-part2{
+        width: 560px;
+        /* height: 56px; */
+        padding-top: 15px;
+    }
+    .main-section-content-part2 p{
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: justified;
+        color: rgba(255, 255, 255, 1);
+        
+    }
+    .Progress-bar-heading p {
+        font-size: 16px;
+      }
+      .main-section-left-d img{
+        max-width: 100%;
+        padding-top: 200px;
+      }
+  } 
+  
+  
+  @media screen and (min-width:320px) and (max-width: 699px) {
+    .main-section-d {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+         width: 100%;
+         box-sizing: border-box;
+         /* padding: 40px 50px; */
+         padding: 20px 15px 20px 15px;
+    
+} 
+.main-section-right-d{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    gap: 15px;
+    /* padding-top: 180.97px; */
+}
+.main-section-content-part2{
+    width:100%;
+    /* height: 56px; */
+    padding-top: 15px;
+}
+.main-section-content-part1{
+    width: 100%;
+    height: 30px;
 }
 
 
-/* .main-section-left-d{
+.main-section-content-part1 h2{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: justified;
+    color: white;    
+}
+.main-section-content-part1 h2 span{
+     font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: justified;
+    color: rgba(0, 243, 182, 1);
+}
+.main-section-content-part2{
     width: 100%;
-} */
+    height: 56px;
+    padding-top: 15px;
+}
+.main-section-content-part2 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+}
+.Progress-bar-heading p {
+    font-size: 10px;
+  }
+  .main-section-left-d img{
+    max-width: 100%;
+    padding-top: 200px;
+  }
+  .Progress-bar-d{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    gap: 20px;
+    padding-top: 35px;
+} 
+ .bar-d img{
+    width: 30px;
+ }
+ .Progress-bar-heading-part{
+    width: 70px;
+    display: flex;
+    justify-content: flex-start;
+ }
+ .Progress-bar-pic img{
+     width: 20px;
+     height: 20px;
+ }
+  .Progress-bar-pic {
+    padding-bottom: 15px;
+ }
+  }

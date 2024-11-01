@@ -17,25 +17,25 @@ import TwelveSection from './Components/TwelveSection';
 function App() {
   return (
     <>
-    <div className="Second-part">
+    <div className="second-part">
       <NavbarSection/>
       <MainSection/>
       <SecondMaind/>
       <FourWrapCard/>
     </div>
      <NoWrapCards/>
-    <div className='Second-part'>
+    <div className='second-part'>
     <FifthSection/>
     </div>
     <SixthSection/>
-    <div className='Second-part'>
+    {/* <div className='second-part'>
         <SeventhSection/>
         <EightSection/>
         <NinethSection/>
         <TenthSection/>
         <ElevenSection/>
-        {/* <TwelveSection/> */}
-    </div>
+        <TwelveSection/>
+    </div> */}
     </>
   );
 }

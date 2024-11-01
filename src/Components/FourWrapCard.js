@@ -7,7 +7,7 @@ export default function FourWrapCard() {
        <div className='two-card-1st-part'>
            <div className='single-card-two'>
             <div className='single-card-two-inner-d'>
-              <div><img src="/Images/robotWrapCard1.svg"/></div>
+              <div className='card-pic-d'><img src="/Images/robotWrapCard1.svg"/></div>
                
                <div className='single-card-two-content'>
                      <div className='single-card-two-content-part1'><img src="/Images/mashinelearning.svg" /></div>
@@ -29,7 +29,7 @@ export default function FourWrapCard() {
 
            <div className='single-card-two'>
             <div className='single-card-two-inner-d'>
-              <div><img src="/Images/pic2Card.svg"/></div>
+              <div className='card-pic-d'><img src="/Images/pic2Card.svg"/></div>
                
                <div className='single-card-two-content'>
                      <div className='single-card-two-content-part1'><img src="/Images/pic2CardIcon.svg" /></div>
@@ -48,6 +48,7 @@ export default function FourWrapCard() {
              </div>
            </div>
 
+            
 
        </div>
 
@@ -58,7 +59,7 @@ export default function FourWrapCard() {
        <div className='two-card-2st-part'>
            <div className='single-card-two'>
             <div className='single-card-two-inner-d'>
-              <div><img src="/Images/pic3Card.svg"/></div>
+              <div className='card-pic-d'><img src="/Images/pic3Card.svg"/></div>
                
                <div className='single-card-two-content'>
                      <div className='single-card-two-content-part1'><img src="/Images/pic3CardIcon.svg" /></div>
@@ -80,7 +81,7 @@ export default function FourWrapCard() {
 
            <div className='single-card-two'>
             <div className='single-card-two-inner-d'>
-              <div><img src="/Images/pic4Card.svg"/></div>
+              <div className='card-pic-d'><img src="/Images/pic4Card.svg"/></div>
                
                <div className='single-card-two-content'>
                      <div className='single-card-two-content-part1'><img src="/Images/pic4CardIcon.svg" /></div>

@@ -14,7 +14,7 @@ export default function NinethSection() {
             
             <div className='nineth-section-bottom-part'>
                   <div className='nineth-section-right-part'>
-                         <div><img src="/Images/ninethSectionPic1.svg"/></div>
+                         <div className='nine-card-pic'><img src="/Images/ninethSectionPic1.svg"/></div>
                          <div className='nineth-section-left-part'>
                             <div  className='nineth-section-content-heading'><h2>Testimonial</h2></div>
                             <div className='nineth-section-content-para'><p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly  </p></div>
@@ -25,7 +25,7 @@ export default function NinethSection() {
                             </div>  
                   </div>
                   <div className='nineth-section-right-part'>
-                         <div><img src="/Images/ninethSectionPic1.svg"/></div>
+                         <div className='nine-card-pic'><img src="/Images/ninethSectionPic1.svg"/></div>
                          <div className='nineth-section-left-part'>
                             <div  className='nineth-section-content-heading'><h2>Testimonial</h2></div>
                             <div className='nineth-section-content-para'><p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly  </p></div>

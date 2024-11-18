@@ -505,7 +505,7 @@
     }
 
     .single-card-two{
-        width: 290px;
+        width: 100%;
         height: 170px;
         margin-top: 60px;
         padding: 15px 20px;
@@ -525,7 +525,7 @@
     }
     .single-card-two-content-part2 h2{
         font-family: Poppins;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 18.11px;
         text-align: justified;
@@ -564,6 +564,11 @@
 }
 
     .card-pic-d img{
-          width: 100px;
+          width:100px;
+    }
+    .Progress-bar-heading-part{
+    width: 100px;
+    justify-content: flex-start;
+        padding: 0;
     }
 }

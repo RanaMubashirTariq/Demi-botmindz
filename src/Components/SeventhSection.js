@@ -6,7 +6,7 @@ export default function SeventhSection() {
     <div className='seventh-section-d'>
         <div className='seventh-section-content'>
            <div className='seventh-section-para'><p>Team</p></div>
-           <div className='seventh-section-heading'><h2>Our Certified <span>Scientists</span> With<br/>Smart Solutions</h2></div>
+           <div className='seventh-section-heading'><h2>Our Certified <span>Scientists</span> WithsSmart Solutions</h2></div>
            </div>
 
            {/* Cards part */}

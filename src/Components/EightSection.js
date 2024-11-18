@@ -14,16 +14,16 @@ export default function EightSection() {
                     <div className='eight-section-right-part'>
                               <div className='eight-section-part-1'><p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document. </p></div>
                               <div className='eight-section-part-2'>
-                                <div><img src="/images/eightSectionPic1.svg" /></div>
-                                <div><img src="/images/eightSectionQutes.svg" /></div>
+                                <div className='inner-pic1'><img src="/images/eightSectionPic1.svg" /></div>
+                                <div className='inner-pic1'><img src="/images/eightSectionQutes.svg" /></div>
                               </div>
                     </div>
 
                     <div className='eight-section-right-part'>
                               <div className='eight-section-part-1'><p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document. </p></div>
                               <div className='eight-section-part-2'>
-                                <div><img src="/images/eightSectionPic2.svg" /></div>
-                                <div><img src="/images/eightSectionQutes.svg" /></div>
+                                <div className='inner-pic1'><img src="/images/eightSectionPic2.svg" /></div>
+                                <div className='inner-pic1'><img src="/images/eightSectionQutes.svg" /></div>
                               </div>
                     </div>
           </div>

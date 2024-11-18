@@ -28,14 +28,14 @@ function App() {
     <FifthSection/>
     </div>
     <SixthSection/>
-    {/* <div className='second-part'>
+    <div className='second-part'>
         <SeventhSection/>
         <EightSection/>
         <NinethSection/>
         <TenthSection/>
-        <ElevenSection/>
-        <TwelveSection/>
-    </div> */}
+        {/* <ElevenSection/>
+        <TwelveSection/> */}
+    </div>
     </>
   );
 }

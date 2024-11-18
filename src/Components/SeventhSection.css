@@ -62,3 +62,99 @@
     opacity: 0px;
     
 }
+@media screen and (min-width:800px) and (max-width:1480px) {
+    .seventh-section-d{
+    padding: 100px 80px 100px 83px;
+}
+    .inner-pic img{
+        width:100%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+    .seventh-section-d{
+        padding: 40px 30px 40px 33px;
+    }
+    .seventh-section-heading h2{
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 67px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        
+    }
+    .seventh-section-heading h2 span{
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 67px;
+        text-align: center;
+        color: rgba(0, 243, 182, 1);    
+    }
+    .inner-pic img{
+        width:100%;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:500px)  {
+    .seventh-section-d{
+        width: 100%;
+        padding: 20px 15px 20px 18px;
+    }
+    .seventh-section-para{
+        font-size: 12px;
+    } 
+    .seventh-section-heading h2{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 37px;
+        
+    }
+    .seventh-section-heading h2 span{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 37px;
+    }
+    .inner-pic img{
+        width:100%;
+    }
+    .seventh-section-cards-d{
+             flex-direction: column;
+   }
+}
+
+@media screen and (max-width:390px)  {
+    .seventh-section-d{
+           overflow: hidden;
+    }
+    .seventh-section-d{
+        width: 100%;
+        padding: 20px 15px 20px 18px;
+    }
+    .seventh-section-para{
+        font-size: 12px;
+    } 
+    .seventh-section-heading h2{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 37px;
+        
+    }
+    .seventh-section-heading h2 span{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 37px;
+    }
+    .inner-pic img{
+        width: 290px;
+    }
+    .seventh-section-cards-d{
+             flex-direction: column;
+             text-align: center;
+   }
+}

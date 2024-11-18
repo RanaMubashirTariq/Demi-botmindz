@@ -247,10 +247,10 @@
     .navbar-section-d {
         width: 100%;
       padding: 15px 20px;
-    
+      /* overflow: hidden; */
     }
-    .navbar-section-d-logo {
-      width: 100%;
+    .navbar-section-d-logo img{
+      width: 100px;
     }
     .toggle-button {
       font-size: 30px;

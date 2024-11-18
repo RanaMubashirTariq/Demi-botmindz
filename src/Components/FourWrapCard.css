@@ -13,6 +13,7 @@
     justify-content: space-between;
     width: 100%;
     height: 315px;
+    margin-bottom: 60px;
 }
 .two-card-2st-part{
     display: flex;
@@ -29,7 +30,7 @@
     border-radius: 45px 0px 45px 0px;
     color: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(219, 214, 214, 0.2);
-    backdrop-filter: blur(70px)
+    backdrop-filter: blur(70px);
 
 }
 .single-card-two-inner-d{
@@ -39,6 +40,7 @@
     width: 100%;
     /* height: 243px; */ 
     gap: 20px;
+    
 }
 .single-card-two-content{
     display: flex;

@@ -33,8 +33,8 @@ function App() {
         <EightSection/>
         <NinethSection/>
         <TenthSection/>
-        {/* <ElevenSection/>
-        <TwelveSection/> */}
+        <ElevenSection/>
+        {/* <TwelveSection/> */}
     </div>
     </>
   );

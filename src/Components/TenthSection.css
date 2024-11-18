@@ -143,12 +143,12 @@
     
 }
 
-@media screen and (min-width:13000px) and (max-width:1450px) {
+@media screen and (min-width:1300px) and (max-width:1450px) {
     .tenth-section-d{
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 130px 152px 130px 154px;
+        padding: 130px 132px 130px 134px;
         overflow: hidden;
     }
     .tenth-section-right-card{

@@ -108,7 +108,7 @@
 
 @media screen and (min-width:1000px) and (max-width:1220px) {
     .eight-section-d{
-        padding: 80px 97px 80px 97px;
+        padding: 0px 97px 80px 97px;
     }
     .eight-section-right-part{
         width: 356px;
@@ -126,7 +126,7 @@
 
 @media screen and (min-width:730px) and (max-width:1000px) {
     .eight-section-d{
-        padding: 40px 57px;
+        padding: 0px 57px 40px 57px;
     }
     .eight-section-right-part{
         width: 300px;

@@ -441,6 +441,7 @@
 
 }
 
+
 @media screen and (min-width:500px) and (max-width: 860px) {
     .four-wrap-card {
         width: 100%;
@@ -488,13 +489,13 @@
     }
 }
 
-@media screen and (min-width:315px) and (max-width: 500px) {
+@media screen and (min-width:400px) and (max-width: 500px) {
     .four-wrap-card {
         width: 100%;
-        padding: 20px;
+        padding: 20px 20px 20px 20px;
         display: flex;
         flex-direction: column;
-        gap: 40px; /* Adjust the gap between cards */
+        gap: 20px; /* Adjust the gap between cards */
     }
     
     .two-card-1st-part,
@@ -564,7 +565,93 @@
 }
 
     .card-pic-d img{
-          width:100px;
+          width:150px;
+    }
+    .Progress-bar-heading-part{
+    width: 100px;
+    justify-content: flex-start;
+        padding: 0;
+    }
+}
+
+
+@media screen and  (max-width: 400px) {
+    .four-wrap-card {
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Adjust the gap between cards */
+    }
+    
+    .two-card-1st-part,
+    .two-card-2st-part {
+        flex-direction: column; /* Stack cards vertically */
+        width: 100%;
+        height: auto; /* Let height adjust based on content */
+    }
+
+    .single-card-two{
+        width: 100%;
+        height: 170px;
+        margin-top: 60px;
+        padding: 15px 20px;
+    }
+    .single-card-two-inner-d {
+        flex-direction: row; /* Keep content layout intact */
+        width: 100%;
+        gap: 20px;
+    }
+
+    .single-card-two-content-part2{
+        width: 100%;
+        height: 28px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    .single-card-two-content-part2 h2{
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 18.11px;
+        text-align: justified;
+        color: rgba(255, 255, 255, 1); 
+    }
+    .single-card-two-content-part3{
+         width: 100%;
+         height: 69px;
+    }
+    .single-card-two-content-part3 p{
+        font-family: Plus Jakarta Sans;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 13px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);  
+    }
+
+.Progress-bar-heading p{
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 13px;
+} 
+.Progress-bar-pic img{
+    width: 8px;
+    height: 8px;
+}
+.single-card-two-content-inner-d2{
+
+    width: 100%;
+    height: 70px;
+    gap: 9px; 
+}
+.single-card-two-content-part1 img{
+    width: 30px;
+}
+
+    .card-pic-d img{
+          width:130px;
     }
     .Progress-bar-heading-part{
     width: 100px;

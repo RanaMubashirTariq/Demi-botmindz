@@ -64,7 +64,7 @@
 }
 @media screen and (min-width:800px) and (max-width:1480px) {
     .seventh-section-d{
-    padding: 100px 80px 100px 83px;
+    padding: 100px 80px 0px 83px;
 }
     .inner-pic img{
         width:100%;
@@ -73,7 +73,7 @@
 
 @media screen and (min-width:500px) and (max-width:800px) {
     .seventh-section-d{
-        padding: 40px 30px 40px 33px;
+        padding: 40px 30px 0px 33px;
     }
     .seventh-section-heading h2{
         font-family: Poppins;
@@ -94,6 +94,13 @@
     }
     .inner-pic img{
         width:100%;
+    }
+    .inner-pic{
+        width: 398px;
+        height: 483px;
+        gap: 0px;
+        opacity: 0px;
+        
     }
 }
 
@@ -152,6 +159,13 @@
     }
     .inner-pic img{
         width: 290px;
+    }
+    .inner-pic{
+        width: 290px;
+        height: 450px;
+        gap: 0px;
+        opacity: 0px;
+        
     }
     .seventh-section-cards-d{
              flex-direction: column;

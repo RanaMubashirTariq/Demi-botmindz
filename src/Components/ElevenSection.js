@@ -16,11 +16,11 @@ export default function ElevenSection() {
                                <div className='eleven-section-part2-inner-part2'>
                                    <div className='eleven-section-part2-inner-part-list'>
                                    <div className='eleven-section-part2-inner-part-list-d'>
-                                            <div className='eleven-section-part2-inner-part-para'><p>3. What is Lorem Ipsum?</p></div>
+                                            <div className='eleven-section-part2-inner-part-para'><p>1. What is Lorem Ipsum?</p></div>
                                            <div className='eleven-section-part2-inner-part-pic'> <img src="/images/elevenSectionIcon.svg"/></div>
                                         </div>
                                         <div className='eleven-section-part2-inner-part-list-d'>
-                                            <div className='eleven-section-part2-inner-part-para'><p>3. What is Lorem Ipsum?</p></div>
+                                            <div className='eleven-section-part2-inner-part-para'><p>2. What is Lorem Ipsum?</p></div>
                                            <div className='eleven-section-part2-inner-part-pic'> <img src="/images/elevenSectionIcon.svg"/></div>
                                         </div>
                                         <div className='eleven-section-part2-inner-part-list-d'>
